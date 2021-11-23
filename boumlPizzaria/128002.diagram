@@ -1,0 +1,91 @@
+format 224
+
+classcanvas 128002 class_ref 128002 // Client
+  classdiagramsettings member_max_width 0 end
+  xyz 210 182 2000
+  constraint 129410
+    hidden
+    end
+    ""
+      xyzwh 367 273 2000 35 35
+end
+classcanvas 128130 class_ref 128130 // ingredients
+  classdiagramsettings member_max_width 0 end
+  xyz 413 67 2000
+  constraint 129666
+    hidden
+    end
+    ""
+      xyzwh 544 114 2000 35 35
+end
+classcanvas 128258 class_ref 128258 // Menu
+  classdiagramsettings member_max_width 0 end
+  xyz 64 241 2000
+  constraint 129922
+    hidden
+    end
+    ""
+      xyzwh 129 278 2000 35 35
+end
+classcanvas 128386 class_ref 128386 // Order
+  classdiagramsettings member_max_width 0 end
+  xyz 213 289 2000
+  constraint 130178
+    hidden
+    end
+    ""
+      xyzwh 326 366 2000 35 35
+end
+classcanvas 128514 class_ref 128514 // Pizza
+  classdiagramsettings member_max_width 0 end
+  xyz 223 44 2000
+  constraint 130434
+    hidden
+    end
+    ""
+      xyzwh 328 135 2000 35 35
+end
+classcanvas 128642 class_ref 128642 // Simulation
+  classdiagramsettings member_max_width 0 end
+  xyz 209 391 2000
+  constraint 130690
+    hidden
+    end
+    ""
+      xyzwh 488 498 2000 35 35
+end
+classcanvas 128770 class_ref 128770 // Exceptions
+  classdiagramsettings member_max_width 0 end
+  xyz 530 348 2005
+  constraint 130946
+    hidden
+    end
+    ""
+      xyzwh 623 385 2005 35 35
+end
+classcanvas 128898 class_ref 128898 // Pizzeria
+  classdiagramsettings member_max_width 0 end
+  xyz 40 73 2000
+  constraint 131202
+    hidden
+    end
+    ""
+      xyzwh 145 120 2000 35 35
+end
+line 129538 -_-_
+  from ref 128002 z 2001 to ref 129410
+line 129794 -_-_
+  from ref 128130 z 2001 to ref 129666
+line 130050 -_-_
+  from ref 128258 z 2001 to ref 129922
+line 130306 -_-_
+  from ref 128386 z 2001 to ref 130178
+line 130562 -_-_
+  from ref 128514 z 2001 to ref 130434
+line 130818 -_-_
+  from ref 128642 z 2001 to ref 130690
+line 131074 -_-_
+  from ref 128770 z 2006 to ref 130946
+line 131330 -_-_
+  from ref 128898 z 2001 to ref 131202
+end
